@@ -61,7 +61,7 @@ body {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  height: 25vh;
+  height: 21vh;
 }
 
 .layout-container {
@@ -75,7 +75,7 @@ body {
   font-size: var(--poppins-placeholder);
   background-color: var(--place-holder-background);
   padding: 1rem;
-  margin: 2rem 0 0;
+  margin: 1.5rem 0 0;
   border-radius: 8px;
   outline: none;
   border: 1px solid var(--placeholder-color);
@@ -91,7 +91,7 @@ body {
   font-size: var(--poppins-button-text);
   background-color: var(--submit-button);
   padding: 1rem;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   border-radius: 8px;
   outline: none;
   border: 1px solid var(--submit-button);
@@ -104,4 +104,26 @@ body {
   font-weight: var(--poppins-regular);
   font-size: var(--poppins-helper-text);
   color: var(--placeholder-color);
+}
+
+/* layout 1024px */
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 55%;
+    font-size: var(--poppins-subheading);
+  }
+
+  .input-container {
+    width: 43%;
+  }
+
+  .layout-container {
+    width: 90%;
+  }
+
+  .layout-container p {
+    font-size: 10px;
+    text-align: center;
+  }
 }
