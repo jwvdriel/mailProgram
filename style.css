@@ -108,7 +108,7 @@ body {
 
 /* layout 1024px */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .container {
     width: 55%;
     font-size: var(--poppins-subheading);
@@ -116,6 +116,27 @@ body {
 
   .input-container {
     width: 43%;
+  }
+
+  .layout-container {
+    width: 90%;
+  }
+
+  .layout-container p {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+/* layout 1280px */
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 45%;
+  }
+
+  .input-container {
+    width: 35%;
   }
 
   .layout-container {
